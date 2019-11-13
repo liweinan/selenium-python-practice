@@ -24,3 +24,4 @@ time.sleep(9)
 print(driver.find_element_by_id('content').text)
 
 driver.close()
+
