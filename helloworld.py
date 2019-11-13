@@ -1,3 +1,11 @@
+# 先启动selenium的docker容器：
+# $ docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome:3.141.59-titanium
+#
+# 然后运行pipenv环境：
+# $ pipenv shell
+#
+# 然后执行代码：
+# python helloworld.py
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
